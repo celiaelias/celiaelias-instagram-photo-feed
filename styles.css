@@ -1,0 +1,58 @@
+body {
+    background-color: lightgrey;
+    font-family: 'Nanum Gothic', sans-serif;
+    margin: 0;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: white;
+}
+
+header h1 {
+    margin: 0;
+    padding: 15px;
+}
+
+.post {
+    background-color: white;
+    margin-top: 50px;
+}
+
+.post img {
+    width: 100%;
+}
+
+.post .post-header div:first-child {
+    display:inline-block;
+    width: 80%;
+}
+
+.post .post-header div:last-child {
+    display:inline-block;
+    width: 20%;
+    text-align: right;
+    padding: 15px;
+    color: grey;
+}
+
+.post h2, .post p {
+    padding: 15px;
+    margin: 0;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+}
+
+.description {
+    padding-bottom: 5px;
+}
+
+.description:last-child {
+    margin-bottom: 50px;
+}
